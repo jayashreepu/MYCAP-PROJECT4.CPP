@@ -29,7 +29,8 @@ int main()
     return 0;
 }
 
-bool checkPrime(int n) {
+bool checkPrime(int n) 
+{
     int i;
     bool isPrime = true;
 
@@ -37,9 +38,12 @@ bool checkPrime(int n) {
     {
         isPrime = false;
     }
-    else {
-        for(i = 2; i <= n/2; ++i) {
-            if(n % i == 0) {
+    else 
+    {
+        for(i = 2; i <= n/2; ++i) 
+        {
+            if(n % i == 0) 
+            {
                 isPrime = false;
                 break;
             }
